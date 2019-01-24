@@ -1,6 +1,11 @@
 nav{
     text-align: center;
     font-size: 28px;
+    padding-bottom: 20px;
+}
+
+nav a{
+    padding-bottom: 200px;
 }
 
 body{
@@ -16,12 +21,24 @@ body{
 }
 
 .menu{
+    display: block;
     text-align: center;
     list-style-position: inside;
+    
 }
  .logo{
-    display: block;
     width: 200px;
     height: auto;
+ }
 
+ .pic{
+     display: block;
+     width: 350px;
+     height: auto;
+     float: right;
+ }
+
+ div{
+    text-align: center;
+    display: block;
  }
