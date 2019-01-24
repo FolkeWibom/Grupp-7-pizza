@@ -1,7 +1,4 @@
-
-   
    let btnDate = document.getElementById('btnPizza')
-
 
    btnPizza.addEventListener('click',randomPizza)
 
