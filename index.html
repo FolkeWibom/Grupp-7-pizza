@@ -16,29 +16,29 @@
         <a href="menu.html">Pizzor</a>
         <a href="other.html">Andra rätter</a>
     </nav>
-    <button onclick="randomPizza" id="randomPizza">Press for random pizza</button>
-
+    
     <h1>Fend Pizzeria</h1>
-
+    
+    <button onclick="randomPizza" id="randomPizza">Press for random pizza</button>
     <p>
         Ring och beställ <br>
         08-245 67 91 <br>
         Eller beställ online i formuläret nedan
     </p>
-
-    <form  name="contact" method="POST" data-netlify="true" >
-            
-            <input  type="text" name="name" placeholder="Namn"> 
-            
-            <input  type="number" name="phone" placeholder="Telefonnummer" > 
-
-            <input type="text" name="address" placeholder="Adress">
+    <form class="form"  name="contact" method="POST" data-netlify="true" >
         
-            <textarea name="message" cols="50" rows="10" placeholder="Meddelande"></textarea>
+        <input class="form" type="text" name="name" placeholder="Namn"> 
         
-            <input  type="submit" value="Send">
-            </form>
-
+        <input class="form"  type="number" name="phone" placeholder="Telefonnummer" > 
+        
+        <input class="form" type="address" name="address" placeholder="Adress">
+        
+        <textarea class="form" name="message" cols="50" rows="10" placeholder="Meddelande"></textarea>
+        
+        <input class="form" type="submit" value="Send">
+    </form>
+    
+    
     <script src="randomPizza.js"></script>
   
 
