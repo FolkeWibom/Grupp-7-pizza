@@ -3,7 +3,13 @@ nav{
     font-size: 28px;
 }
 
+body{
+    text-align: center;
+}
+
 .form{
     text-align: center; 
-    
+    display: block;
+    margin:10px auto;
+    padding:5px;
 }
