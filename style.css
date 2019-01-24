@@ -20,6 +20,8 @@ body{
     list-style-position: inside;
 }
  .logo{
-    align-content: left;
-    
+    display: block;
+    width: 200px;
+    height: auto;
+
  }
