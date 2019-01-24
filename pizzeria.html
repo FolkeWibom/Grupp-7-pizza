@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizzeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button onclick="randomPizza" id="randomPizza">Press for random pizza</button>
+
+    <script>
+
+        document.getElementById("randomPizza");
+        let favoritePizza = ['Kebab Pizza', 'vesuvio', 'Taco pizza', 'Margherita', 'Funghi', 'Capricciosa', 'Hawaii',
+            'Napolitana'
+        ];
+
+        function randomPizza(id) {
+            return favoritePizza[Math.floor(Math.random() * favoritePizza.length)];
+            console.write(favoritePizza());
+        }
+    </script>
+
+</body>
+
+</html>
