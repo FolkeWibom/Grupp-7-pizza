@@ -1,9 +1,12 @@
 
-let favoritePizza = ['Kebab Pizza', 'vesuvio', 'Taco pizza', 'Margherita', 'Funghi', 'Capricciosa', 'Hawaii', 'Napolitana'];
+   
+   let btnDate = document.getElementById('btnPizza')
 
 
+   btnPizza.addEventListener('click',randomPizza)
 
-function randomDinner(){
-    // console.log(Math.floor(Math.random() * favoriteDish.length));
-    return favoritePizza[Math.floor(Math.random() * favoriteDish.length)]; 
-}
+   let favoritePizza = ['Kebab Pizza', 'vesuvio', 'Taco pizza', 'Margherita', 'Funghi', 'Capricciosa', 'Hawaii','Napolitana'];
+
+   function randomPizza(){
+     document.getElementById('pizza').innerHTML = favoritePizza[Math.floor(Math.random() * favoritePizza.length)];
+   }
