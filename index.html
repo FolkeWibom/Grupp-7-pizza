@@ -18,19 +18,21 @@
     </nav>
     <button onclick="randomPizza" id="randomPizza">Press for random pizza</button>
 
+    <form  name="contact" method="POST" data-netlify="true" >
+            
+            <input  type="text" name="name" placeholder="Namn"> 
+            
+            <input  type="number" name="phone" placeholder="Telefonnummer" > 
+
+            <input type="text" name="address" placeholder="Adress">
+        
+            <textarea name="message" cols="50" rows="10" placeholder="Meddelande"></textarea>
+        
+            <input class="form formmedia" type="submit" value="Send">
+            </form>
+
     <script src="randomPizza.js"></script>
-    <script>
-
-        document.getElementById("randomPizza");
-        let favoritePizza = ['Kebab Pizza', 'vesuvio', 'Taco pizza', 'Margherita', 'Funghi', 'Capricciosa', 'Hawaii',
-            'Napolitana'
-        ];
-
-        function randomPizza(id) {
-            return favoritePizza[Math.floor(Math.random() * favoritePizza.length)];
-            console.write(favoritePizza());
-        }
-    </script>
+  
 
 </body>
 
