@@ -4,8 +4,17 @@ nav{
     padding-bottom: 20px;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    color: red; 
+}
 nav a{
     padding-bottom: 200px;
+    text-decoration: none; 
+    color: black; 
 }
 
 body{
@@ -38,7 +47,11 @@ body{
      float: right;
  }
 
- div{
+ .center{
     text-align: center;
     display: block;
+ }
+
+ #pizza{
+     color: red; 
  }
